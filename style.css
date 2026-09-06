@@ -8,7 +8,6 @@
     --purple: #7c4dff;
 }
 
-/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +24,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header */
 header {
     position: fixed;
     top: 18px;
@@ -67,7 +65,6 @@ nav a:hover {
     color: white;
 }
 
-/* Hero */
 .hero {
     min-height: 100vh;
     padding: 120px 20px 60px;
@@ -98,7 +95,6 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-/* Search */
 #searchForm {
     width: 700px;
     max-width: 90%;
@@ -160,7 +156,6 @@ nav a:hover {
     color: var(--red);
 }
 
-/* Main */
 main {
     width: 90%;
     max-width: 1050px;
@@ -188,7 +183,6 @@ main {
     font-size: 13px;
 }
 
-/* Empty Message */
 .empty {
     min-height: 300px;
     display: flex;
@@ -210,7 +204,6 @@ main {
     color: var(--muted);
 }
 
-/* Movie Grid */
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -265,7 +258,6 @@ main {
     cursor: pointer;
 }
 
-/* Loading */
 .loader {
     min-height: 250px;
     display: flex;
@@ -289,7 +281,6 @@ main {
     }
 }
 
-/* Error */
 .error {
     padding: 18px;
     margin-bottom: 20px;
@@ -304,7 +295,6 @@ main {
     display: none !important;
 }
 
-/* Modal */
 .modal {
     position: fixed;
     top: 0;
@@ -344,7 +334,6 @@ main {
     cursor: pointer;
 }
 
-/* Movie Details */
 .details-content {
     display: grid;
     grid-template-columns: 220px 1fr;
@@ -372,7 +361,6 @@ main {
     margin-top: 15px;
 }
 
-/* Mobile */
 @media (max-width: 700px) {
 
     header {

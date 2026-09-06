@@ -9,5 +9,5 @@ Movie Search App The Movie Search App is a web page built using HTML, CSS, and J
 ## Task Lists
 
 - [x] HTML ADDED
-- [ ] CSS ADDED
-- [ ] JS ADDED
+- [x] CSS ADDED
+- [x] JS ADDED
